@@ -1,0 +1,19 @@
+// Author: Sean Davis,  who are you?
+
+#ifndef DATABASE_H
+#define	DATABASE_H
+
+#include "filmDriver.h"
+
+
+class Database
+{
+public:
+  Database(Movie *movies, int movieCount);
+  int search(const Query *query);
+private:
+
+};
+
+#endif	/* DATABASE_H */
+

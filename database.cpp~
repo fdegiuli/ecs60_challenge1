@@ -1,0 +1,14 @@
+#include "database.h"
+#include "filmDriver.h"
+
+
+Database::Database(Movie *movies, int movieCount)
+{
+}  // Database()
+
+
+
+int Database::search(const Query* query)
+{
+  return 0;
+} // search
